@@ -1,0 +1,7 @@
+text = ''
+
+#email地址的正则表达式
+print(re.findall(r'\d{10}@qq.cpom',text))
+
+#网址URL的正则表达式
+print(re.findall(r'www.[a-z]+.[]',text))
